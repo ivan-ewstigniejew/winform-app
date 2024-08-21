@@ -37,32 +37,31 @@
             // dgvPokemons
             // 
             this.dgvPokemons.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPokemons.Location = new System.Drawing.Point(13, 79);
-            this.dgvPokemons.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvPokemons.Location = new System.Drawing.Point(12, 120);
             this.dgvPokemons.Name = "dgvPokemons";
             this.dgvPokemons.RowHeadersWidth = 51;
             this.dgvPokemons.RowTemplate.Height = 24;
-            this.dgvPokemons.Size = new System.Drawing.Size(576, 380);
+            this.dgvPokemons.Size = new System.Drawing.Size(786, 304);
             this.dgvPokemons.TabIndex = 0;
             this.dgvPokemons.SelectionChanged += new System.EventHandler(this.dgvPokemons_SelectionChanged);
             // 
             // pbxPokemon
             // 
-            this.pbxPokemon.Location = new System.Drawing.Point(595, 79);
+            this.pbxPokemon.Location = new System.Drawing.Point(804, 120);
+            this.pbxPokemon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxPokemon.Name = "pbxPokemon";
-            this.pbxPokemon.Size = new System.Drawing.Size(293, 380);
+            this.pbxPokemon.Size = new System.Drawing.Size(260, 304);
             this.pbxPokemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxPokemon.TabIndex = 1;
             this.pbxPokemon.TabStop = false;
             // 
             // frmPokemons
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 562);
+            this.ClientSize = new System.Drawing.Size(1076, 583);
             this.Controls.Add(this.pbxPokemon);
             this.Controls.Add(this.dgvPokemons);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmPokemons";
             this.Text = "Pokemons";
             this.Load += new System.EventHandler(this.frmPokemons_Load);
